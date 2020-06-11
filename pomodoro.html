@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Pomodoro</title>
+    <audio src="assets/1111.ogg" id="my_audio"></audio>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    
+    <section class="options">
+        <div id="start" onclick="startTime()" >
+            <h1 >Start</h1>
+        </div>
+        <div id="pause" hidden>
+            <h1>Pause/Play</h1>
+        </div>
+        <div id="stop" onclick="stop()" hidden>
+            <h1>Stop</h1>
+        </div>
+        <div id="reset" onclick="reset()" hidden>
+            <h1>Reset</h1>
+        </div>
+    </section>
+
+    <div class="chrono">      
+
+        <h1 id="txt"></h1>       
+    
+    </div>
+    
+</body>
+</html>
